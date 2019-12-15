@@ -50,7 +50,7 @@ Run `yarn test` to execute the unit tests via Karma.
 
 
 ## App Preview
-check out the screenshots directory!(especially the dark mode)
+check out the screenshots directory!(especially the <b style='color:red'>Dark Mode</b>)
 
 
 
