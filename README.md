@@ -53,6 +53,12 @@ Run `yarn test` to execute the unit tests via Karma.
 check out the screenshots directory!(especially the <b style='color:red'>Dark Mode</b>)
 
 
+- [Cart Page](https://github.com/nis24jit/ionic-insurances-app/blob/master/resources/screenshots/Darkmode.jpg)
+
+  <img src="resources/screenshots/Darkmode.jpg" alt="Schedule">
+
+
+
 
 ## Deploying
 
