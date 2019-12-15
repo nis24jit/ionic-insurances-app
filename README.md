@@ -57,7 +57,7 @@ check out the screenshots directory!(especially the <b style='color:red'>Dark Mo
 
   <img src="resources/screenshots/Darkmode.jpg" alt="Cartpage">
 
-If you want to see more images of the app, check out the [screenshots directory](https://github.com/nis24jit/ionic-insurances-app/tree/master/resources/screenshots)!
+check out the [screenshots directory](https://github.com/nis24jit/ionic-insurances-app/tree/master/resources/screenshots) for more
 
 
 ## Deploying
