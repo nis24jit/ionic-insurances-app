@@ -4,7 +4,7 @@ IONIC INSURANCES APP
 </h1>
 
 
-This app demonstrates the harmonical coexistence of IONIC4+, NGRX8+, ANGULAR8+. 
+This app demonstrates the harmonical coexistence of IONIC4+, NGRX8+, ANGULAR8+. It contains a normal and a <b style='color:red'>Dark Mode</b>!!
 
 
 [Setup and install](#setup-and-install) | [Preview](#app-preview) | [Tasks](#tasks) |
