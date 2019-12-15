@@ -1,0 +1,57 @@
+
+[
+  {
+    "id": 1,
+    "name": "Car insurance",
+    "price": 90.00,
+    "term": "monthly",
+    "icon": "car",
+    "isBought": true,
+    "isInCart": false
+  },
+  {
+    "id": 2,
+    "name": "Home insurance",
+    "price": 50.00,
+    "term": "monthly",
+    "icon": "home",
+    "isBought": false,
+    "isInCart": false
+  },
+  {
+    "id": 3,
+    "name": "Phone insurance",
+    "price": 25.00,
+    "term": "monthly",
+    "icon": "phone-portrait",
+    "isBought": false,
+    "isInCart": false
+  },
+  {
+    "id": 4,
+    "name": "Work insurance",
+    "price": 45.00,
+    "term": "monthly",
+    "icon": "briefcase",
+    "isBought": false,
+    "isInCart": false
+  },
+  {
+    "id": 5,
+    "name": "Health insurance",
+    "price": 110.00,
+    "term": "monthly",
+    "icon": "medkit",
+    "isBought": false,
+    "isInCart": false
+  },
+  {
+    "id": 6,
+    "name": "Travel insurance",
+    "price": 5.00,
+    "term": "monthly",
+    "icon": "globe",
+    "isBought": false,
+    "isInCart": false
+  }
+]

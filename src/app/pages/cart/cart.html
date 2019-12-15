@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Cart</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content >
+  <div class="cart">
+  <products [selectedTab]="selectedTab" class="cart__products"></products>
+
+    <div class="cart__lowerblock">
+      <h4 class="cart__lowerblock__price">Total: &euro; <span id="priceField">325,00 </span></h4>
+    <ion-button class="cart__lowerblock__button" color="primary" (click)="purchase()" id="cart">Buy</ion-button>
+    </div>
+
+  </div>
+
+
+</ion-content>
+

@@ -1,0 +1,2 @@
+export * from './insurances.action';
+

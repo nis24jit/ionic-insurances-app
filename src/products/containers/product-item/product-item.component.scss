@@ -1,0 +1,42 @@
+:host {
+  display: block;
+}
+.product-item {
+  display: flex;
+  &__icons{
+    height: 45px;
+    width: 45px;
+    color: orange;
+  }
+
+  &__font-md{
+    font-size: 16px;
+  }
+  &__addicon{
+    color: orange;
+    &--disabled{
+      color: red;
+    }
+  }
+  &__removeicon{
+    color: red;
+    &--disabled{
+      color: grey;
+    }
+  }
+}
+
+
+/* If the screen size is 330px wide or more, set the font-size of <div> to 16px */
+@media screen and (max-width: 330px) {
+  h1.list_text {
+    font-size: 16px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 20px */
+@media screen and (max-width: 600px) {
+  h1.list_text {
+    font-size: 18px;
+  }
+}

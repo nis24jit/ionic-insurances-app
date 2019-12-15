@@ -1,0 +1,46 @@
+
+<ion-list *ngIf="selectedTab===1 && insurance.isBought===true">
+  <ion-item>
+    <ion-avatar slot="start">
+      <ion-icon name="{{insurance.icon}}" class="product-item__icons"></ion-icon>
+    </ion-avatar>
+    <ion-label>
+      <h1 class="list_text">{{insurance.name}}</h1>
+      <p class="product-item__font-md"> &euro;{{insurance.price}},00 p/m</p>
+    </ion-label>
+  </ion-item>
+</ion-list>
+
+
+<ion-list *ngIf="selectedTab===2 && insurance.isBought==false" id="pur{{insurance.id}}">
+  <ion-item>
+    <ion-label><h1 class="list_text">{{insurance.name}}</h1></ion-label>
+
+    <ion-label>
+
+      <p> &euro;{{insurance.price}},00 p/m</p>
+    </ion-label>
+
+    <ion-icon name="add-circle" (click)="onAddInsurance(insurance)"  class="product-item__addicon"  id="in{{insurance.id}}"></ion-icon>
+  </ion-item>
+</ion-list>
+
+
+
+<ion-list *ngIf="selectedTab===3 && insurance.isInCart===true" >
+  <ion-item>
+    <ion-label><h1 class="list_text">{{insurance.name}}</h1></ion-label>
+
+    <ion-label>
+
+      <p> &euro;{{insurance.price}},00 p/m</p>
+    </ion-label>
+
+    <ion-icon name="remove-circle" (click)="onRemoveInsurance(insurance)" class="product-item__removeicon"></ion-icon>
+
+
+  </ion-item>
+</ion-list>
+
+
+

@@ -1,0 +1,7 @@
+{
+  "name": "insurance-app",
+  "type": "angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

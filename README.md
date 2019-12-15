@@ -1,0 +1,82 @@
+<h1 align="center">
+
+IONIC INSURANCES APP
+</h1>
+
+
+This app demonstrates the harmonical coexistence of IONIC4+, NGRX8+, ANGULAR8+. 
+
+
+[Setup and install](#setup-and-install) | [Preview](#app-preview)|[Tasks](#tasks) |
+[Resources](#resources)
+
+## Setup and install
+
+Fork this repo from inside GitHub so you can commit directly to your account, or
+simply download the `.zip` bundle with the contents inside.
+
+## Dependency installation
+
+Download the installer for Node.js 6 or greater.
+Install the ionic CLI globally: npm install -g ionic
+Clone this repository
+
+```
+cd <insurances-app>
+yarn install
+# OR
+npm install
+```
+
+This will then setup all the development and production dependencies we need.
+
+## Tasks
+
+A quick reminder of all tasks available:
+
+Now simply run this to boot up the server:
+
+## Development server
+
+```
+ionic serve -b --no-livereload
+
+```
+
+Visit `localhost:8100` to start building.
+
+## Running unit tests
+Run `yarn test` to execute the unit tests via Karma.
+
+
+## App Preview
+check out the screenshots directory!(especially the dark mode)
+
+
+
+##Deploying
+
+Run npm run ionic:build --prod
+
+Push the www folder to your hosting service
+
+Android
+Run ionic cordova run android --prod
+
+iOS
+Run ionic cordova run ios --prod
+
+
+## Resources
+
+The app would not have been made possible if not for the below resources
+
+* [Ionic](https://ionicframework.com/docs)
+* [Angular](https://angular.io)
+* [ngrx/store](https://github.com/ngrx/platform/blob/master/docs/store/README.md)
+  docs
+* [ngrx/effects](https://github.com/ngrx/platform/blob/master/docs/effects/README.md)
+  docs
+* [yarn](https://yarnpkg.com)
+* [npm](https://www.npmjs.com/)
+* [Webpack](https://webpack.js.org/)
