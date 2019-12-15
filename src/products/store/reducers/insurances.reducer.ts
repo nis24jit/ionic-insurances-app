@@ -48,6 +48,7 @@ export function reducer(
       };
     }
 
+    // Minor optimization to retrieve by id in dictionary data structure
     case fromInsurances.LOAD_INSURANCES_SUCCESS: {
       const insurances = action.payload;
 
