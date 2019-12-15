@@ -54,16 +54,16 @@ check out the screenshots directory!(especially the dark mode)
 
 
 
-##Deploying
+## Deploying
 
 Run npm run ionic:build --prod
 
 Push the www folder to your hosting service
 
-Android
+### Android
 Run ionic cordova run android --prod
 
-iOS
+### iOS
 Run ionic cordova run ios --prod
 
 
