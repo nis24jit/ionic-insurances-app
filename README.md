@@ -12,7 +12,7 @@ This app demonstrates the harmonical coexistence of IONIC4+, NGRX8+, ANGULAR8+.
 
 ## Setup and install
 
-Fork this repo from inside GitHub so you can commit directly to your account, or
+Clone this repo from inside GitHub  or
 simply download the `.zip` bundle with the contents inside.
 
 ## Dependency installation
