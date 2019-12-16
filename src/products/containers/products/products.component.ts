@@ -92,6 +92,7 @@ export class ProductsComponent implements OnInit {
     }
   }
 
+  // Refactor this!!
   calculatePrice() {
     let price = 0;
     const subscription = this.insurances$.subscribe((insurances) => {

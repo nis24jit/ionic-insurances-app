@@ -112,6 +112,7 @@ export class ProductItemComponent implements OnInit {
   //  Refactor, use  @ViewChild for DOM ACCESS
   toggleIcon(icon) {
     const element = `in${icon.id}`;
+    // Definitely needs refactoring, use [ngClass]
     setTimeout(() => document.getElementById(element).style.color = 'grey'
     );
 
